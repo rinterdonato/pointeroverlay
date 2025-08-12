@@ -1,0 +1,24 @@
+// .gitignore — Full file for paste into project root
+# Gradle
+.gradle/
+**/build/
+**/captures/
+local.properties
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+misc.xml
+deploymentTargetDropDown.xml
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keystores
+*.jks
+*.keystore
+
+# Logs
+*.log

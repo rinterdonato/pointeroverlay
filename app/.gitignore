@@ -1,0 +1,19 @@
+# Gradle & build
+.gradle/
+**/build/
+**/captures/
+local.properties
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+misc.xml
+deploymentTargetDropDown.xml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keystores
+*.jks
+*.keystore
