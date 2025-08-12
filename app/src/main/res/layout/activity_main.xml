@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Custom view: must be fully-qualified so ViewBinding knows the correct type -->
+    <!-- Circle overlay -->
     <com.example.pointeroverlay.CircleOverlayView
         android:id="@+id/circleOverlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <!-- Simple test controls at the bottom -->
+    <!-- Bottom test buttons -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,4 +35,17 @@
             android:layout_weight="1"
             android:text="Fade Out (1s)" />
     </LinearLayout>
+
+    <!-- Tiny HUD for live luma & state -->
+    <TextView
+        android:id="@+id/debugText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_margin="12dp"
+        android:padding="6dp"
+        android:text="Luma: --  Obscured: --"
+        android:textSize="12sp"
+        android:background="#66000000"
+        android:textColor="#FFFFFF" />
 </FrameLayout>

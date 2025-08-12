@@ -1,4 +1,3 @@
-// .gitignore — Full file for paste into project root
 # Gradle
 .gradle/
 **/build/
